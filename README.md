@@ -20,10 +20,47 @@ This are the main packages used:
 
 Full details on the requirements.txt file.
 
+
+## Installation
+
+To install the required dependencies, you can use pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+To use the project, follow these steps:
+git clone https://github.com/yourusername/GTSRB-German-Traffic-Sign-Recognition.git
+
+Navigate to the project directory:
+cd GTSRB-German-Traffic-Sign-Recognition
+
+Run the application:
+python predict_traffic_signs.py
+
+## Model Training
+If you want to train the model with your own data:
+
+Replace the existing dataset with your data in the data directory.
+Modify the data preprocessing and model training scripts as needed.
+Run the training script:
+python train_model.py
+
+## Contributing
+Contributions to this project are welcome! If you have any suggestions, enhancements, or bug fixes, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
 ## Conclusion
 
-This Project was very effective during the experimentations. In the end, the traffic sign classifier App works pretty well overall with the testing time.
+The project was highly effective during experimentation, resulting in a robust traffic sign classifier app. However, it occasionally encountered challenges with random sample images from the internet.
 
-However, the Project some time did not work as good with random sample images from the internet.
+Furthermore, for a self-driving car to locate traffic signs in public, it must first identify their locations. Speeding signs, for example, may require an OCR (object recognition) mechanism to scan the image with sliding windows to locate candidate signs. Such a detection mechanism is beyond the scope of this project.
 
-Moreover, if a self-driving car needs to find traffic signs in public, it first needs to know where the traffic signs are. For speeding signs, we may need an OCR (object recognition) mechanism that scan across the image with sliding windows to find the candidate signs. This kind of detection mechanism is not covered in this project.
+
