@@ -44,6 +44,7 @@ If you want to train the model with your own data:
 
 Replace the existing dataset with your data in the data directory.
 Modify the data preprocessing and model training scripts as needed.
+
 Run the training script:
 python train_model.py
 
