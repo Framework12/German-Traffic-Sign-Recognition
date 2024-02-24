@@ -31,9 +31,11 @@ pip install -r requirements.txt
 
 ## Usage
 To use the project, follow these steps:
+
 git clone https://github.com/yourusername/GTSRB-German-Traffic-Sign-Recognition.git
 
 Navigate to the project directory:
+
 cd GTSRB-German-Traffic-Sign-Recognition
 
 Run the application:
